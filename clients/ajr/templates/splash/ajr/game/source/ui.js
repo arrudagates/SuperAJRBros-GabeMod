@@ -15,213 +15,213 @@ export class UI {
 
         //----------------------------------------------------
 
-        this.loader.add("frame", "./img/frame.png");
-        this.loader.add("blueColor", "./img/blueColor.png");
-        this.loader.add("faderColor", "./img/faderColor.png");
-        this.loader.add("noteUI", "./img/noteUI.png");
-        this.loader.add("vig", "./img/vig.png");
-        this.loader.add("button_right", "./img/button_right.png");
-        this.loader.add("button_left", "./img/button_left.png");
-        this.loader.add("button_jump", "./img/button_jump.png");
-        this.loader.add("button_shoot", "./img/button_shoot.png");
+        this.loader.add("frame", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/frame.png");
+        this.loader.add("blueColor", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blueColor.png");
+        this.loader.add("faderColor", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/faderColor.png");
+        this.loader.add("noteUI", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/noteUI.png");
+        this.loader.add("vig", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/vig.png");
+        this.loader.add("button_right", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button_right.png");
+        this.loader.add("button_left", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button_left.png");
+        this.loader.add("button_jump", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button_jump.png");
+        this.loader.add("button_shoot", "/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button_shoot.png");
 
-        this.loader.add('brick', './img/brick.png');
-        this.loader.add('quest', './img/quest.png');
-        this.loader.add('quest2', './img/quest2.png');
-        this.loader.add('ground', './img/ground.png');
-        this.loader.add('ground2', './img/ground2.png');
-        this.loader.add('ground3', './img/ground3.png');
-        this.loader.add('block', './img/block.png');
-        this.loader.add('castleBlock', './img/castleBlock.png');
-        this.loader.add('castleCol', './img/castleCol.png');
-        this.loader.add('castleDecL', './img/castleDecL.png');
-        this.loader.add('castleDecR', './img/castleDecR.png');
-        this.loader.add('castleColTop', './img/castleColTop.png');
-        this.loader.add('castleWall', './img/castleWall.png');
-        this.loader.add('flagPole', './img/flagPole.png');
-        this.loader.add('pipe', './img/pipe.png');
-        this.loader.add('questDone', './img/questDone.png');
-        this.loader.add('boxBack', './img/boxBack.png');
-        this.loader.add('note1', './img/note1.png');
-        this.loader.add('note2', './img/note2.png');
-        this.loader.add('okOrchestra', './img/okOrchestra.png');
-        this.loader.add('koopa1', './img/inst/koopa1.png');
-        this.loader.add('koopa2', './img/inst/koopa2.png');
-        this.loader.add('turtle1', './img/inst/turtle1.png');
-        this.loader.add('turtle2', './img/inst/turtle2.png');
-        this.loader.add('brickBit', './img/brickBit.png');
-        this.loader.add('fbHit', './img/fbHit.png');
-        this.loader.add('cloud1', './img/cloud1.png');
-        this.loader.add('cloud2', './img/cloud2.png');
-        this.loader.add('cloud3', './img/cloud3.png');
-        this.loader.add('cloudSingle', './img/cloudSingle.png');
-        this.loader.add('fb1', './img/fb1.png');
-        this.loader.add('fb2', './img/fb2.png');
-        this.loader.add('fb3', './img/fb3.png');
-        this.loader.add('fb4', './img/fb4.png');
-        this.loader.add('star1', './img/star1.png');
-        this.loader.add('star2', './img/star2.png');
-        this.loader.add('star3', './img/star3.png');
-        this.loader.add('star4', './img/star4.png');
-        this.loader.add('star5', './img/star5.png');
+        this.loader.add('brick', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/brick.png');
+        this.loader.add('quest', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/quest.png');
+        this.loader.add('quest2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/quest2.png');
+        this.loader.add('ground', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/ground.png');
+        this.loader.add('ground2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/ground2.png');
+        this.loader.add('ground3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/ground3.png');
+        this.loader.add('block', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/block.png');
+        this.loader.add('castleBlock', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castleBlock.png');
+        this.loader.add('castleCol', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castleCol.png');
+        this.loader.add('castleDecL', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castleDecL.png');
+        this.loader.add('castleDecR', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castleDecR.png');
+        this.loader.add('castleColTop', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castleColTop.png');
+        this.loader.add('castleWall', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castleWall.png');
+        this.loader.add('flagPole', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/flagPole.png');
+        this.loader.add('pipe', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/pipe.png');
+        this.loader.add('questDone', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/questDone.png');
+        this.loader.add('boxBack', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/boxBack.png');
+        this.loader.add('note1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/note1.png');
+        this.loader.add('note2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/note2.png');
+        this.loader.add('okOrchestra', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/okOrchestra.png');
+        this.loader.add('koopa1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/koopa1.png');
+        this.loader.add('koopa2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/koopa2.png');
+        this.loader.add('turtle1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/turtle1.png');
+        this.loader.add('turtle2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/turtle2.png');
+        this.loader.add('brickBit', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/brickBit.png');
+        this.loader.add('fbHit', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/fbHit.png');
+        this.loader.add('cloud1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/cloud1.png');
+        this.loader.add('cloud2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/cloud2.png');
+        this.loader.add('cloud3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/cloud3.png');
+        this.loader.add('cloudSingle', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/cloudSingle.png');
+        this.loader.add('fb1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/fb1.png');
+        this.loader.add('fb2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/fb2.png');
+        this.loader.add('fb3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/fb3.png');
+        this.loader.add('fb4', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/fb4.png');
+        this.loader.add('star1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/star1.png');
+        this.loader.add('star2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/star2.png');
+        this.loader.add('star3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/star3.png');
+        this.loader.add('star4', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/star4.png');
+        this.loader.add('star5', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/star5.png');
 
-        this.loader.add('deathSign', './img/deathSign.png');
-        this.loader.add('cloudBack', './img/cloudBack.png');
-        this.loader.add('skyPattern', './img/skyPattern.png');
-        this.loader.add('forground', './img/forground.png');
-        this.loader.add('bg_trees', './img/bg_trees.png');
-        this.loader.add('bg_fenses', './img/bg_fenses.png');
-        this.loader.add('bg_landscape', './img/bg_landscape.png');
-        this.loader.add('bg_head', './img/bg_head.png');
-        this.loader.add('bg_head2', './img/bg_head2.png');
-        this.loader.add('blueGrad', './img/blueGrad.png');
-        this.loader.add('bg_whiteClouds', './img/bg_whiteClouds.png');
-        this.loader.add('bg_clouds', './img/bg_clouds.png');
-        this.loader.add('bg_smallClouds', './img/bg_smallClouds.png');
-        this.loader.add('bg_diagnals', './img/bg_diagnals.png');
-        this.loader.add('bg_mountains', './img/bg_mountains.png');
-        this.loader.add('bg_blueClouds', './img/bg_blueClouds.png');
-        this.loader.add('bg_blueClouds2', './img/bg_blueClouds2.png');
-        this.loader.add('bummerLandSign', './img/bummerLandSign.png');
-        this.loader.add('castle', './img/castle.png');
-        this.loader.add('flag', './img/flag.png');
-        this.loader.add('splash1', './img/splash1gabe.png');
-        this.loader.add('splash2', './img/splash2gabe.png');
-        this.loader.add('blackArea', './img/blackArea.png');
-        this.loader.add('startButton', './img/startButton.png');
-        this.loader.add('selectMenu', './img/selectMenu.png');
-        this.loader.add('selectMenu2', './img/selectMenu2.png');
-        this.loader.add('gameOver', './img/gameOver.png');
-        this.loader.add('ghost', './img/inst/ghost.png');
-        this.loader.add('ghost2', './img/inst/ghost2.png');
-        this.loader.add('thwomp', './img/thwomp.png');
-        this.loader.add('gotNotes', './img/gotNotes.png');
-        this.loader.add('turtleShell', './img/turtleShell.png');
-        this.loader.add('stage1', './img/stage1.png');
-        this.loader.add('stage2', './img/stage2.png');
-        this.loader.add('stage3', './img/stage3.png');
-        this.loader.add('lava', './img/lava.png');
-        this.loader.add('virus', './img/virus.png');
-        this.loader.add('virusShot', './img/virusShot.png');
-        this.loader.add('virusShotDiag', './img/virusShotDiag.png');
-        this.loader.add('virusBullet', './img/virusBullet.png');
-        this.loader.add('vaccine', './img/vaccine.png');
-        this.loader.add('sign', './img/sign.png');
-        this.loader.add('blueHole', './img/blueHole.png');
+        this.loader.add('deathSign', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/deathSign.png');
+        this.loader.add('cloudBack', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/cloudBack.png');
+        this.loader.add('skyPattern', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/skyPattern.png');
+        this.loader.add('forground', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/forground.png');
+        this.loader.add('bg_trees', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_trees.png');
+        this.loader.add('bg_fenses', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_fenses.png');
+        this.loader.add('bg_landscape', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_landscape.png');
+        this.loader.add('bg_head', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_head.png');
+        this.loader.add('bg_head2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_head2.png');
+        this.loader.add('blueGrad', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blueGrad.png');
+        this.loader.add('bg_whiteClouds', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_whiteClouds.png');
+        this.loader.add('bg_clouds', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_clouds.png');
+        this.loader.add('bg_smallClouds', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_smallClouds.png');
+        this.loader.add('bg_diagnals', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_diagnals.png');
+        this.loader.add('bg_mountains', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_mountains.png');
+        this.loader.add('bg_blueClouds', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_blueClouds.png');
+        this.loader.add('bg_blueClouds2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_blueClouds2.png');
+        this.loader.add('bummerLandSign', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bummerLandSign.png');
+        this.loader.add('castle', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castle.png');
+        this.loader.add('flag', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/flag.png');
+        this.loader.add('splash1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/splash1gabe.png');
+        this.loader.add('splash2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/splash2gabe.png');
+        this.loader.add('blackArea', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blackArea.png');
+        this.loader.add('startButton', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/startButton.png');
+        this.loader.add('selectMenu', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/selectMenu.png');
+        this.loader.add('selectMenu2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/selectMenu2.png');
+        this.loader.add('gameOver', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/gameOver.png');
+        this.loader.add('ghost', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/ghost.png');
+        this.loader.add('ghost2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/ghost2.png');
+        this.loader.add('thwomp', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/thwomp.png');
+        this.loader.add('gotNotes', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/gotNotes.png');
+        this.loader.add('turtleShell', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/turtleShell.png');
+        this.loader.add('stage1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/stage1.png');
+        this.loader.add('stage2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/stage2.png');
+        this.loader.add('stage3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/stage3.png');
+        this.loader.add('lava', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/lava.png');
+        this.loader.add('virus', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/virus.png');
+        this.loader.add('virusShot', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/virusShot.png');
+        this.loader.add('virusShotDiag', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/virusShotDiag.png');
+        this.loader.add('virusBullet', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/virusBullet.png');
+        this.loader.add('vaccine', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/vaccine.png');
+        this.loader.add('sign', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/sign.png');
+        this.loader.add('blueHole', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blueHole.png');
 
-        this.loader.add('hammerBro1', './img/inst/hammerBro1.png');
-        this.loader.add('hammerBro2', './img/inst/hammerBro2.png');
-        this.loader.add('hammerBro3', './img/inst/hammerBro3.png');
-        this.loader.add('hammer', './img/inst/hammer.png');
+        this.loader.add('hammerBro1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/hammerBro1.png');
+        this.loader.add('hammerBro2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/hammerBro2.png');
+        this.loader.add('hammerBro3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/hammerBro3.png');
+        this.loader.add('hammer', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/inst/hammer.png');
 
-        this.loader.add('p1_stance1', './img/p1/p1_stance1.png');
-        this.loader.add('p1_stance2', './img/p1/p1_stance2.png');
-        this.loader.add('p1_stance3', './img/p1/p1_stance3.png');
+        this.loader.add('p1_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_stance1.png');
+        this.loader.add('p1_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_stance2.png');
+        this.loader.add('p1_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_stance3.png');
 
-        this.loader.add('p1_s_stance1', './img/p1/p1_s_stance1.png');
-        this.loader.add('p1_s_stance2', './img/p1/p1_s_stance2.png');
-        this.loader.add('p1_s_stance3', './img/p1/p1_s_stance3.png');
+        this.loader.add('p1_s_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_stance1.png');
+        this.loader.add('p1_s_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_stance2.png');
+        this.loader.add('p1_s_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_stance3.png');
 
-        this.loader.add('p1_f_stance1', './img/p1/p1_f_stance1.png');
-        this.loader.add('p1_f_stance2', './img/p1/p1_f_stance2.png');
-        this.loader.add('p1_f_stance3', './img/p1/p1_f_stance3.png');
+        this.loader.add('p1_f_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_stance1.png');
+        this.loader.add('p1_f_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_stance2.png');
+        this.loader.add('p1_f_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_stance3.png');
 
-        this.loader.add('p1_f_fireball', './img/p1/p1_f_fireball.png');
+        this.loader.add('p1_f_fireball', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_fireball.png');
 
-        this.loader.add('p1_death', './img/p1/p1_death.png');
+        this.loader.add('p1_death', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_death.png');
 
-        this.loader.add('p1_run1', './img/p1/p1_run1.png');
-        this.loader.add('p1_run2', './img/p1/p1_run2.png');
-        this.loader.add('p1_run3', './img/p1/p1_run3.png');
+        this.loader.add('p1_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_run1.png');
+        this.loader.add('p1_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_run2.png');
+        this.loader.add('p1_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_run3.png');
 
-        this.loader.add('p1_s_run1', './img/p1/p1_s_run1.png');
-        this.loader.add('p1_s_run2', './img/p1/p1_s_run2.png');
-        this.loader.add('p1_s_run3', './img/p1/p1_s_run3.png');
+        this.loader.add('p1_s_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_run1.png');
+        this.loader.add('p1_s_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_run2.png');
+        this.loader.add('p1_s_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_run3.png');
 
-        this.loader.add('p1_f_run1', './img/p1/p1_f_run1.png');
-        this.loader.add('p1_f_run2', './img/p1/p1_f_run2.png');
-        this.loader.add('p1_f_run3', './img/p1/p1_f_run3.png');
+        this.loader.add('p1_f_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_run1.png');
+        this.loader.add('p1_f_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_run2.png');
+        this.loader.add('p1_f_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_run3.png');
 
-        this.loader.add('p1_f_jump', './img/p1/p1_f_jump.png');
+        this.loader.add('p1_f_jump', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_f_jump.png');
 
-        this.loader.add('p1_jump1', './img/p1/p1_jump.png');
-        this.loader.add('p1_s_jump1', './img/p1/p1_s_jump.png');
+        this.loader.add('p1_jump1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_jump.png');
+        this.loader.add('p1_s_jump1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_s_jump.png');
 
-        this.loader.add('p1_jumpDown', './img/p1/p1_jumpDown.png');
-
-        //----------------------------------------------------
-
-        this.loader.add('p2_stance1', './img/p2/p2_stance1.png');
-        this.loader.add('p2_stance2', './img/p2/p2_stance2.png');
-        this.loader.add('p2_stance3', './img/p2/p2_stance3.png');
-
-        this.loader.add('p2_s_stance1', './img/p2/p2_s_stance1.png');
-        this.loader.add('p2_s_stance2', './img/p2/p2_s_stance2.png');
-        this.loader.add('p2_s_stance3', './img/p2/p2_s_stance3.png');
-
-        this.loader.add('p2_f_stance1', './img/p2/p2_f_stance1.png');
-        this.loader.add('p2_f_stance2', './img/p2/p2_f_stance2.png');
-        this.loader.add('p2_f_stance3', './img/p2/p2_f_stance3.png');
-
-        this.loader.add('p2_f_fireball', './img/p2/p2_f_fireball.png');
-
-        this.loader.add('p2_death', './img/p2/p2_death.png');
-
-        this.loader.add('p2_run1', './img/p2/p2_run1.png');
-        this.loader.add('p2_run2', './img/p2/p2_run2.png');
-        this.loader.add('p2_run3', './img/p2/p2_run3.png');
-
-        this.loader.add('p2_s_run1', './img/p2/p2_s_run1.png');
-        this.loader.add('p2_s_run2', './img/p2/p2_s_run2.png');
-        this.loader.add('p2_s_run3', './img/p2/p2_s_run3.png');
-
-        this.loader.add('p2_f_run1', './img/p2/p2_f_run1.png');
-        this.loader.add('p2_f_run2', './img/p2/p2_f_run2.png');
-        this.loader.add('p2_f_run3', './img/p2/p2_f_run3.png');
-
-        this.loader.add('p2_f_jump', './img/p2/p2_f_jump.png');
-
-        this.loader.add('p2_jump1', './img/p2/p2_jump.png');
-        this.loader.add('p2_s_jump1', './img/p2/p2_s_jump.png');
-
-        this.loader.add('p2_jumpDown', './img/p2/p2_jumpDown.png');
+        this.loader.add('p1_jumpDown', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p1/p1_jumpDown.png');
 
         //----------------------------------------------------
 
-        this.loader.add('p3_stance1', './img/p3/p3_stance1.png');
-        this.loader.add('p3_stance2', './img/p3/p3_stance2.png');
-        this.loader.add('p3_stance3', './img/p3/p3_stance3.png');
+        this.loader.add('p2_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_stance1.png');
+        this.loader.add('p2_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_stance2.png');
+        this.loader.add('p2_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_stance3.png');
 
-        this.loader.add('p3_s_stance1', './img/p3/p3_s_stance1.png');
-        this.loader.add('p3_s_stance2', './img/p3/p3_s_stance2.png');
-        this.loader.add('p3_s_stance3', './img/p3/p3_s_stance3.png');
+        this.loader.add('p2_s_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_stance1.png');
+        this.loader.add('p2_s_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_stance2.png');
+        this.loader.add('p2_s_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_stance3.png');
 
-        this.loader.add('p3_f_stance1', './img/p3/p3_f_stance1.png');
-        this.loader.add('p3_f_stance2', './img/p3/p3_f_stance2.png');
-        this.loader.add('p3_f_stance3', './img/p3/p3_f_stance3.png');
+        this.loader.add('p2_f_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_stance1.png');
+        this.loader.add('p2_f_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_stance2.png');
+        this.loader.add('p2_f_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_stance3.png');
 
-        this.loader.add('p3_f_fireball', './img/p3/p3_f_fireball.png');
+        this.loader.add('p2_f_fireball', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_fireball.png');
 
-        this.loader.add('p3_death', './img/p3/p3_death.png');
+        this.loader.add('p2_death', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_death.png');
 
-        this.loader.add('p3_run1', './img/p3/p3_run1.png');
-        this.loader.add('p3_run2', './img/p3/p3_run2.png');
-        this.loader.add('p3_run3', './img/p3/p3_run3.png');
+        this.loader.add('p2_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_run1.png');
+        this.loader.add('p2_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_run2.png');
+        this.loader.add('p2_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_run3.png');
 
-        this.loader.add('p3_s_run1', './img/p3/p3_s_run1.png');
-        this.loader.add('p3_s_run2', './img/p3/p3_s_run2.png');
-        this.loader.add('p3_s_run3', './img/p3/p3_s_run3.png');
+        this.loader.add('p2_s_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_run1.png');
+        this.loader.add('p2_s_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_run2.png');
+        this.loader.add('p2_s_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_run3.png');
 
-        this.loader.add('p3_f_run1', './img/p3/p3_f_run1.png');
-        this.loader.add('p3_f_run2', './img/p3/p3_f_run2.png');
-        this.loader.add('p3_f_run3', './img/p3/p3_f_run3.png');
+        this.loader.add('p2_f_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_run1.png');
+        this.loader.add('p2_f_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_run2.png');
+        this.loader.add('p2_f_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_run3.png');
 
-        this.loader.add('p3_f_jump', './img/p3/p3_f_jump.png');
+        this.loader.add('p2_f_jump', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_f_jump.png');
 
-        this.loader.add('p3_jump1', './img/p3/p3_jump.png');
-        this.loader.add('p3_s_jump1', './img/p3/p3_s_jump.png');
+        this.loader.add('p2_jump1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_jump.png');
+        this.loader.add('p2_s_jump1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_s_jump.png');
 
-        this.loader.add('p3_jumpDown', './img/p3/p3_jumpDown.png');
+        this.loader.add('p2_jumpDown', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p2/p2_jumpDown.png');
+
+        //----------------------------------------------------
+
+        this.loader.add('p3_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_stance1.png');
+        this.loader.add('p3_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_stance2.png');
+        this.loader.add('p3_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_stance3.png');
+
+        this.loader.add('p3_s_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_stance1.png');
+        this.loader.add('p3_s_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_stance2.png');
+        this.loader.add('p3_s_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_stance3.png');
+
+        this.loader.add('p3_f_stance1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_stance1.png');
+        this.loader.add('p3_f_stance2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_stance2.png');
+        this.loader.add('p3_f_stance3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_stance3.png');
+
+        this.loader.add('p3_f_fireball', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_fireball.png');
+
+        this.loader.add('p3_death', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_death.png');
+
+        this.loader.add('p3_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_run1.png');
+        this.loader.add('p3_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_run2.png');
+        this.loader.add('p3_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_run3.png');
+
+        this.loader.add('p3_s_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_run1.png');
+        this.loader.add('p3_s_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_run2.png');
+        this.loader.add('p3_s_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_run3.png');
+
+        this.loader.add('p3_f_run1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_run1.png');
+        this.loader.add('p3_f_run2', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_run2.png');
+        this.loader.add('p3_f_run3', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_run3.png');
+
+        this.loader.add('p3_f_jump', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_f_jump.png');
+
+        this.loader.add('p3_jump1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_jump.png');
+        this.loader.add('p3_s_jump1', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_s_jump.png');
+
+        this.loader.add('p3_jumpDown', '/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/p3/p3_jumpDown.png');
 
         //----------------------------------------------------
 
@@ -774,7 +774,7 @@ export class UI {
 
         this.noteCont.position.x=-100;
 
-        // this.texture = PIXI.Texture.from('./img/noteUI.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/noteUI.png');
         this.noteImage = new PIXI.Sprite(this.noteUIText);
         this.noteImage.position.x = -103;
         this.noteImage.position.y = 0;
@@ -870,7 +870,7 @@ export class UI {
 
         //--- vig ----------------------------------------------------------------------------------
 
-        // this.texture = PIXI.Texture.from('./img/vig.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/vig.png');
         this.vig = new PIXI.Sprite(this.vigText);
         this.vig.anchor.x = .5;
         this.vig.anchor.y = 1;
@@ -882,7 +882,7 @@ export class UI {
 
         this.buttonSize = 150;
 
-        // this.texture = PIXI.Texture.from('./img/button.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button.png');
         this.leftBut = new PIXI.Sprite(this.button_leftText);
         this.leftBut.anchor.x = 0;
         this.leftBut.anchor.y = 1;
@@ -913,7 +913,7 @@ export class UI {
         this.toucher._zIndex = 101
         // this.app.stage.addChild(this.toucher);
 
-        // this.texture = PIXI.Texture.from('./img/button.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button.png');
         this.rightBut = new PIXI.Sprite(this.button_rightText);
         this.rightBut.anchor.x = 0;
         this.rightBut.anchor.y = 1;
@@ -937,7 +937,7 @@ export class UI {
             this.e.input.keyRight=false;
         })
 
-        // this.texture = PIXI.Texture.from('./img/button.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button.png');
         this.shootBut = new PIXI.Sprite(this.button_shootText);
         this.shootBut.anchor.x = 1;
         this.shootBut.anchor.y = 1;
@@ -960,7 +960,7 @@ export class UI {
             this.e.input.keySpace=false;
         })
 
-        // this.texture = PIXI.Texture.from('./img/button.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/button.png');
         this.jumpBut = new PIXI.Sprite(this.button_jumpText);
         this.jumpBut.anchor.x = 1;
         this.jumpBut.anchor.y = 1;
@@ -2050,7 +2050,7 @@ export class UI {
             this.starArray.push(this.star)
 
         }
-        // this.cloudBackTexture = PIXI.Texture.from('./img/cloudBack.png');
+        // this.cloudBackTexture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/cloudBack.png');
         this.cloudBack = new PIXI.Sprite(this.cloudBackText);
         this.cloudBack.anchor.x = 1;
         this.cloudBack.anchor.y = 1;
@@ -2143,7 +2143,7 @@ export class UI {
 
     background(){
 
-        // this.texture = PIXI.Texture.from('./img/skyback.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/skyback.png');
         // this.sky = new PIXI.Sprite(this.texture);
         // this.sky.anchor.x = 0;
         // this.sky.anchor.y = 1;
@@ -2153,7 +2153,7 @@ export class UI {
         // this.sky.scale.y = 3;
         // this.mainCont.addChild(this.sky);
 
-        // this.texture = PIXI.Texture.from('./img/skyPattern.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/skyPattern.png');
         this.sky = new PIXI.TilingSprite(this.skyPatternText, 36*3, 720*3);
         this.sky._zIndex = 1
         this.sky.anchor.x = 0;
@@ -2175,7 +2175,7 @@ export class UI {
 
         for(var i=0; i<12; i++){
 
-            // this.texture = PIXI.Texture.from('./img/forground.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/forground.png');
             this.forground = new PIXI.Sprite(this.forgroundText);
             this.forground.anchor.x = 0;
             this.forground.anchor.y = 1;
@@ -2195,7 +2195,7 @@ export class UI {
 
         for(var i=0; i<4; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_fenses.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_fenses.png');
             this.bg_fenses = new PIXI.Sprite(this.bg_fensesText);
             this.bg_fenses.anchor.x = 0;
             this.bg_fenses.anchor.y = 1;
@@ -2215,7 +2215,7 @@ export class UI {
 
         for(var i=0; i<4; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_landscape.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_landscape.png');
             this.bg_tree = new PIXI.Sprite(this.bg_treesText);
             this.bg_tree.anchor.x = 0;
             this.bg_tree.anchor.y = 1;
@@ -2235,7 +2235,7 @@ export class UI {
 
         for(var i=0; i<4; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_landscape.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_landscape.png');
             this.bg_landscape = new PIXI.Sprite(this.bg_landscapeText);
             this.bg_landscape.anchor.x = 0;
             this.bg_landscape.anchor.y = 1;
@@ -2255,7 +2255,7 @@ export class UI {
 
         for(var i=0; i<4; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_head.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_head.png');
             this.bg_head = new PIXI.Sprite(this.bg_headText);
             this.bg_head.anchor.x = 0;
             this.bg_head.anchor.y = 1;
@@ -2275,7 +2275,7 @@ export class UI {
 
         for(var i=0; i<2; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_head2.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_head2.png');
             this.bg_head2 = new PIXI.Sprite(this.bg_head2Text);
             this.bg_head2.anchor.x = 0;
             this.bg_head2.anchor.y = 1;
@@ -2287,7 +2287,7 @@ export class UI {
 
         }
 
-        // this.texture = PIXI.Texture.from('./img/blueColor.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blueColor.png');
         this.blueColor = new PIXI.Sprite(this.blueColorText);
         this.blueColor.anchor.x = 0;
         this.blueColor.anchor.y = 1;
@@ -2299,7 +2299,7 @@ export class UI {
         this.blueColor._zIndex=37;
         this.mainCont.addChild(this.blueColor);
 
-        // this.texture = PIXI.Texture.from('./img/blueGrad.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blueGrad.png');
         this.blueGrad = new PIXI.Sprite(this.blueGradText);
         this.blueGrad.anchor.x = 0;
         this.blueGrad.anchor.y = 1;
@@ -2318,7 +2318,7 @@ export class UI {
         for(var i=0; i<20; i++){
 
 
-            // this.texture = PIXI.Texture.from('./img/bg_whiteClouds.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_whiteClouds.png');
             this.bg_whiteCloud = new PIXI.Sprite(this.bg_whiteCloudsText);
             this.bg_whiteCloud.anchor.x = 0;
             this.bg_whiteCloud.anchor.y = 1;
@@ -2328,7 +2328,7 @@ export class UI {
             this.bg_whiteCloud.scale.y = 3;
             this.whiteCloudCont.addChild(this.bg_whiteCloud);
 
-            // this.texture = PIXI.Texture.from('./img/bg_clouds.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_clouds.png');
             this.bg_whiteCloud = new PIXI.Sprite(this.bg_cloudsText);
             this.bg_whiteCloud.anchor.x = 0;
             this.bg_whiteCloud.anchor.y = 1;
@@ -2348,7 +2348,7 @@ export class UI {
 
         for(var i=0; i<20; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_smallClouds.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_smallClouds.png');
             this.bg_smallClouds = new PIXI.Sprite(this.bg_smallCloudsText);
             this.bg_smallClouds.anchor.x = 0;
             this.bg_smallClouds.anchor.y = 1;
@@ -2368,7 +2368,7 @@ export class UI {
 
         for(var i=0; i<20; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_diagnals.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_diagnals.png');
             this.bg_diagnals = new PIXI.Sprite(this.bg_diagnalsText);
             this.bg_diagnals.anchor.x = 0;
             this.bg_diagnals.anchor.y = 1;
@@ -2388,7 +2388,7 @@ export class UI {
 
         for(var i=0; i<20; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_mountains.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_mountains.png');
             this.bg_mountains = new PIXI.Sprite(this.bg_mountainsText);
             this.bg_mountains.anchor.x = 0;
             this.bg_mountains.anchor.y = 1;
@@ -2408,7 +2408,7 @@ export class UI {
 
         for(var i=0; i<20; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_blueClouds.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_blueClouds.png');
             this.bg_blueClouds = new PIXI.Sprite(this.bg_blueCloudsText);
             this.bg_blueClouds.anchor.x = 0;
             this.bg_blueClouds.anchor.y = 1;
@@ -2428,7 +2428,7 @@ export class UI {
 
         for(var i=0; i<20; i++){
 
-            // this.texture = PIXI.Texture.from('./img/bg_blueClouds2.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bg_blueClouds2.png');
             this.bg_blueClouds2 = new PIXI.Sprite(this.bg_blueClouds2Text);
             this.bg_blueClouds2.anchor.x = 0;
             this.bg_blueClouds2.anchor.y = 1;
@@ -2475,7 +2475,7 @@ export class UI {
         this.blockCont.addChild(this.movera);
 
 
-        // this.texture = PIXI.Texture.from('./img/bummerLandSign.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/bummerLandSign.png');
         this.bummerLandSign = new PIXI.Sprite(this.bummerLandSignText);
         this.bummerLandSign.anchor.x = 0;
         this.bummerLandSign.anchor.y = 1;
@@ -2485,7 +2485,7 @@ export class UI {
         this.bummerLandSign.scale.y = 3;
         this.blockCont.addChild(this.bummerLandSign);
 
-        // this.texture = PIXI.Texture.from('./img/blackArea.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blackArea.png');
         this.blackBack = new PIXI.Sprite(this.blackAreaText);
         this.blackBack.anchor.x = 0;
         this.blackBack.anchor.y = 1;
@@ -2496,7 +2496,7 @@ export class UI {
         this.blackBack.scale.y = 3;
         this.blockCont.addChild(this.blackBack);
 
-        // this.texture = PIXI.Texture.from('./img/blackArea.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/blackArea.png');
         this.blackBack = new PIXI.Sprite(this.blackAreaText);
         this.blackBack.anchor.x = 0;
         this.blackBack.anchor.y = 1;
@@ -2507,7 +2507,7 @@ export class UI {
         this.blackBack.scale.y = 3;
         this.blockCont.addChild(this.blackBack);
 
-        // this.texture = PIXI.Texture.from('./img/castle.png');
+        // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/castle.png');
         this.blackBack = new PIXI.Sprite(this.castleText);
         this.blackBack.anchor.x = 0;
         this.blackBack.anchor.y = 1;
@@ -2911,7 +2911,7 @@ export class UI {
             this.block.anchor.y=1;
             this.block.position.y+=this.brickSize;
 
-            // this.texture = PIXI.Texture.from('./img/flag.png');
+            // this.texture = PIXI.Texture.from('/ajrgame/clients/ajr/templates/splash/ajr/game/source/img/flag.png');
             this.flag = new PIXI.Sprite(this.flagText);
             this.flag.anchor.x = 0;
             this.flag.anchor.y = .5;
