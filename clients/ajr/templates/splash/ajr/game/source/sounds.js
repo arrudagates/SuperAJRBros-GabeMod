@@ -26,7 +26,7 @@ export class Sounds {
         }
 
         this.musicHowler = new Howl({
-            src: ["ajrgame/clients/ajr/templates/splash/ajr/game/source/sounds/music.mp3"]
+            src: ["/ajrgame/clients/ajr/templates/splash/ajr/game/source/sounds/music.mp3"]
         });
         this.musicHowler.volume(0.3);
         this.musicHowler.loop(true);
@@ -34,7 +34,7 @@ export class Sounds {
 
     loadSounds(url){
         var theSound = new Howl({
-            src: ['ajrgame/clients/ajr/templates/splash/ajr/game/source/sounds/'+url+".mp3"]
+            src: ['/ajrgame/clients/ajr/templates/splash/ajr/game/source/sounds/'+url+".mp3"]
         });
         theSound.on('load', (event) => {
             theSound.name=url;
