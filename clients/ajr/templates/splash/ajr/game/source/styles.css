@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background-color: #abf2fc;
+}
+
+@font-face{
+    font-family: 'LankyTails';
+    src: url('./font/LankyTails.ttf')
+}
+
+#useFont{
+    font-family: 'LankyTails';
+    font-size: 0pt;
+}
+
+#loading {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+#loadingInner{
+    font-family: Nunito;
+    font-size: 24pt;
+    color: #4b98a3;
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: center;
+}
+
+#mycanvas{
+    /* border: 1px solid red; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#mycanvas2{
+    border: 1px solid red;
+    position: fixed;
+    z-index: 100;
+    width: 396px;
+    height: 226px;
+}
+
+#feedback{
+    position: fixed;
+    z-index: 100;
+}
+
+.hideMe{
+    display: none;
+}
